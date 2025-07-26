@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome Vaidehi 🎉</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page" id="welcome">
+    <h1>Welcome Vaidehi 💜</h1>
+    <button onclick="goTo('celebrate')">Click here to celebrate 🎈</button>
+  </div>
+
+  <div class="page hidden" id="celebrate">
+    <h2>It's Vaidehi's 18th Birthday!</h2>
+    <button onclick="goTo('wishes')">Next ➡️</button>
+  </div>
+
+  <div class="page hidden" id="wishes">
+    <h3>Wishes from Prajyot</h3>
+    <p>From my heart, happy birthday to the most special girl 💜</p>
+    <button onclick="goTo('cake')">Cut Cake 🎂</button>
+  </div>
+
+  <div class="page hidden" id="cake">
+    <h2>🍰 Here's a cake for you!</h2>
+    <img src="images/cake.png" alt="Cake" style="width:200px;" />
+    <button onclick="goTo('gifts')">See Gifts 🎁</button>
+  </div>
+
+  <div class="page hidden" id="gifts">
+    <h2>Choose Your Gift 🎁</h2>
+    <ul>
+      <li>💌 A letter from my heart</li>
+      <li>🛍️ Online Shopping With Me</li>
+      <li>🎁 Surprise Me!</li>
+      <li>🎶 Spotify Premium (3 Months)</li>
+      <li>🍫 Virtual Chocolate Box</li>
+    </ul>
+    <p>To collect your treat, check Instagram DM 💜</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+    
